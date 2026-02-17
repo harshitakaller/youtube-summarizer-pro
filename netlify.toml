@@ -1,0 +1,12 @@
+
+[build]
+  # This tells Netlify exactly how to build your site
+  command = "npm run build"
+  # This is where the finished website files go after building
+  publish = "dist"
+
+[[redirects]]
+  # This prevents 404 errors when refreshing the page
+  from = "/*"
+  to = "/index.html"
+  status = 200

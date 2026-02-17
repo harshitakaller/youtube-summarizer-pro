@@ -1,0 +1,5 @@
+{
+  "name": " Automatic Video to Notes generator",
+  "description": "A professional tool that leverages Gemini's reasoning and Google Search grounding to provide deep, long-form summaries and relevant keyword extraction from any YouTube video link.",
+  "requestFramePermissions": []
+}
